@@ -36,7 +36,7 @@ function showMovies(movies){
         
         <div class="movie-info d-flex">
         <h3 class="title">${title}</h3>
-        <span class="${rateColor(vote_average)} rounded">${vote_average}</span>
+        <span class=" rounded" style="color:${rateColor(vote_average)}">${vote_average}</span>
         </div>
         <div class="overview">
             <h3>Overview</h3>
@@ -53,11 +53,11 @@ function showMovies(movies){
 
 function rateColor(rating){
     if (rating >= 8){
-        return "green"
-    } else if (rating >= 5) {
-        return "orange"
+        return "aqua"
+    } else if (rating >= 6) {
+        return "gold"
     } else {
-        return "red"
+        return "orangered"
     }
 }
 

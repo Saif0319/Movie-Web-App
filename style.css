@@ -91,18 +91,3 @@ header {
 .movies:hover .overview{
     transform: translateY(0%);
 }
-
-
-
-
-.movie-info span .red {
-    color: rgb(253, 42, 42);
-}
-
-.movie-info span .green {
-    color: rgb(60, 220, 84);
-}
-
-.movie-info span .orange {
-    color: rgb(255, 213, 0);
-}
